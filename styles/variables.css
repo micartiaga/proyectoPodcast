@@ -1,0 +1,20 @@
+:root {
+    /* FONTS*/
+    --font-family-title: 'IBM Plex Sans', sans-serif;
+    --font-family-paragraph: 'IBM Plex Mono', monospace;
+    
+    --font-weight-button: 500;
+    --font-weight-semititle:600;
+
+    /*COLORS*/
+
+    --pale-blue: #0000EC;
+    --pale-black: #060A24;
+    --button-blue: #00F3BB;
+
+    --gradient-button: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    --gradient-blue:  linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+    
+
+}

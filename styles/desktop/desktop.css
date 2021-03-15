@@ -1,0 +1,14 @@
+@import "./header-desk.css";
+@import "./hero-desk.css";
+@import "./episodios-desk.css";
+@import "./nosotros-desk.css";
+@import "./entrevistas-desk.css";
+@import "./topicos-desk.css";
+@import "./novedades-desk.css";
+@import "./footer-desk.css";
+
+
+main h2{
+    margin-left: 200px;
+    font-size: 48px ;
+}

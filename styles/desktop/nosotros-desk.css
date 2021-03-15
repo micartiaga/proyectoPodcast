@@ -1,0 +1,48 @@
+#nosotros {
+    transform: unset;
+    padding-left: 200px;
+    padding-right: 256px;
+    height: 653.4px;
+   width: 100%;
+}
+
+#nosotros article{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+
+#nosotros img{
+    width: 457.6px ;
+    transform: translate(0,-168.6px); 
+}
+
+#nosotros h2{
+    margin-top: 20.4px;
+    margin-bottom: 24px;
+    margin-left: 0;
+    letter-spacing: 0;
+    width: 401px;
+}
+
+.titulo-abajo {
+    display:unset;
+}
+
+#nosotros .text-nosotros{
+    margin-left: 62.4px;
+}
+
+.parrafo-nosotros{
+    width: 464px;  
+    margin-bottom: 0;
+    margin-left: 0; 
+    margin-bottom: 0;
+}
+
+#nosotros p{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+}

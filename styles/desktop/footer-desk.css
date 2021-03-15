@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 95px;
+    width: 100%;
+    padding-top: 36px;
+}
+
+footer p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container-social-media{
+    margin-bottom: 0;
+}
+
+footer a{
+    margin-left: 36px;
+}
+
+footer a:hover{
+    color:#00F3BB;
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Podcast Mica Artiaga</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <script src="https://kit.fontawesome.com/bf574152fa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!--HEADER -->
+    <header>
+        <!--LOGO-->
+        <div class="logo">
+            <img src="./assets/logo.svg" alt="logo_bd">
+        </div>
+        <!--NAV BAR-->
+        <div class="nav-container">
+            <input type="checkbox" name="nav-icon" id="nav-icon">
+            <label for="nav-icon">
+                <span class="ham">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <span class="cross">
+                    <i class="fas fa-times"></i>
+                </span>
+            </label>
+            <nav>
+                <ul>
+                    <li> <a href="#episodios">EPISODIOS</a></li>
+                    <li> <a href="#nosotros">NOSOTROS</a></li>
+                    <li> <a href="#entrevistas">ENTREVISTAS</a></li>
+                    <li> <a href="#topicos">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--MAIN-->
+    <main>
+        <!--HERO-->
+        <section id="hero">
+            <div>
+                <h1><span>Hello <s>world</s> </span>
+                    <span class="titulo-abajo">pale blue dot<span class="dot">.</span></span></h1>
+                <p class="mobile-hero">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los
+                    jueves cada 15 días.
+                </p>
+                <p class="desktop-hero">
+                    El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios,
+                    todos los jueves cada 15 días.
+                </p>
+                <div class="container-button-style">
+                    <a href="#novedades" class="font-button">CONOCÉ MÁS</a>
+                </div>
+            </div>
+        </section>
+
+        <!--EPISODIOS-->
+        <section id="episodios">
+            <h2>Episodios</h2>
+            <div class="iframe-container">
+                <div>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7d3NdDcjg1jQ7QBIt5gdpC" allow="encrypted-media"></iframe>
+                </div>
+                <div>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/1hO5mW1pE3xijTQzXbYYkz"  allow="encrypted-media"></iframe>
+                </div>
+                <div>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/1wFENFRp9cdsod8CHncGcV" allow="encrypted-media"></iframe>
+                </div>
+                <div>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/58AkcewxyFdPtvD4fNouIE" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!--NOSOTROS-->
+        <section id="nosotros">
+            <article>
+                <figure>
+                    <img src="./assets/phone.png" alt="celular">
+                </figure>
+                <div class="text-nosotros">
+                    <h2>De dónde <span class="titulo-abajo">venimos</span></h2>
+                    <div class="parrafo-nosotros">
+                        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged
+                            position in the Universe, are challenged by this point of pale light.</p>
+                        <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all
+                            this vastness, there is no hint that help will come from elsewhere to save us from
+                            ourselves.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--ENTREVISTAS-->
+        <section id="entrevistas">
+            <h2>Invitadas/os estelares</h2>
+            <div>
+                <img src="./assets/grace_hopper.png" alt="grace_hopper">
+                <img src="./assets/Katie_Bouman.png" alt="katie_bouman">
+                <img src="./assets/Margaret_Hamilton.png" alt="margaret_hamilton">
+                <img src="./assets/computer_1950s.png" alt="computer_1950">
+                <img src="./assets/Computer_operators_with_an_Eniac_the_world’s_first_programmable_general_purpose_computer.png"
+                    alt="computer_operators">
+                <img src="./assets/susan_kare.png" alt="susan_kare">
+            </div>
+        </section>
+
+        <!--TOPICOS-->
+        <section id="topicos">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="topicos-container">
+                <div>
+                    <img src="./assets/icon1.svg" alt="trabajo_remoto_icon">
+                    <h4>Trabajo Remoto</h4>
+                </div>
+                <div>
+                    <img src="./assets/icon2.svg" alt="reprensando_la_programacion_icon">
+                    <h4>Repensando la programación</h4>
+                </div>
+                <div>
+                    <img src="./assets/icon3.svg" alt="bases_del_codigo_icon">
+                    <h4>Bases del código</h4>
+                </div>
+                <div>
+                    <img src="./assets/icon4.svg" alt="seguridad_informatica_icon">
+                    <h4>Seguridad informática</h4>
+                </div>
+            </div>
+        </section>
+
+        <!--NOVEDADES-->
+        <section id="novedades">
+            <h2>¿Querés las últimas novedades?</h2>
+            <div class="container-button-style">
+                <a href="#episodios" class="font-button">ESCUCHÁ LOS EPISODIOS</a>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <p>® 2019- Hello blue pale dot</p>
+        <div class="container-social-media">
+            <a href="https://www.spotify.com" class="fab fa-spotify"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/" class="fab fa-twitter"> </a>
+            <a href="https://www.facebook.com/" class="fab fa-facebook"> </a>
+            <a href="https://web.telegram.org" class="fab fa-telegram"></a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#hero{
+    padding: 120px 200px 5px  ;
+}
+
+.desktop-hero{
+    display: block;
+    width: 628px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--font-family-paragraph);
+    color: var(--pale-black);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;  
+}
+
+.mobile-hero{
+    display: none;
+}
+
+
+
+#hero h1{
+    font-size: 64px;
+    height: 84px;
+    padding-top: 12px;
+}
+
+.dot{
+    color: #0000EC;
+}
+
+
+.container-button-style{
+    width: 226px;
+    height: 56px;
+    margin-top: 56px;
+}
+
+.font-button {
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+
+#hero a:hover{
+    color: white;
+    background-image: var(--gradient-button);
+  }
+  

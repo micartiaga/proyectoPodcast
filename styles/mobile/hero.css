@@ -1,0 +1,63 @@
+#hero{
+    padding: 29px 16px 24px 16px ;
+    width: 100%;
+
+}
+
+.titulo-abajo{
+    display: inline-block;
+}
+
+h1 {
+    font-family: var(--font-family-title);
+    color: var(--pale-black);
+    font-size: 36px;
+    font-weight: unset;
+    line-height: 42px;
+    letter-spacing: 0;
+   
+}
+
+.desktop-hero {
+    display: none;
+}
+
+.mobile-hero {
+    font-family: var(--font-family-paragraph);
+    color: var(--pale-black);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+
+.container-button-style {
+    background-color: var(--button-blue);
+    height: 48px;
+   
+    
+}
+
+.font-button {
+    text-decoration: none;
+    font-family: var(--font-family-paragraph) ;
+    color: var(--pale-black);
+    font-weight: var(--font-weight-button);
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    height: inherit;
+    font-size: 16px;
+    
+}
+
+#hero a:hover{
+  color: white;
+  background-image: var(--gradient-button);
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+#episodios{
+    width: 100%;
+    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+    background-image: var(--gradient-blue) ;
+    padding-top: 64px ;
+    padding-bottom: 143.5px ;
+}
+
+#episodios h2{
+    color: white;
+    margin-bottom: 21px;
+}
+
+
+iframe {
+    height: 232px;
+    border: 0;
+    width: 100%;
+}
+
+.iframe-container{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+
+.iframe-container div{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+.iframe-container div iframe{
+    width: inherit;
+   margin:0px 11px 11px 11px;
+}

@@ -1,0 +1,19 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./episodios.css";
+@import "./nosotros.css";
+@import "./entrevistas.css";
+@import "./topicos.css";
+@import "./novedades.css";
+@import "./footer.css";
+
+
+main h2{
+    margin-left: 16px;
+    font-size: 36px ;
+    font-family: var(--font-family-title);
+    letter-spacing: 0;
+    line-height: 42px;
+    font-weight: unset;
+
+}

@@ -1,0 +1,31 @@
+#topicos{
+    margin-bottom: 34px;
+}
+
+#topicos h2{ 
+    margin-top: 64px ;
+    margin-bottom: 56px;
+}
+
+.topicos-container{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    padding: 0 200px;
+}
+
+.topicos-container div{
+    flex-wrap: wrap;
+    width: 260px;
+    margin-top: 0;
+}
+
+#topicos img{ 
+    width: 104px;
+    margin-bottom: 29px;
+}
+
+#topicos h4{
+    width: 220px ;
+    margin-bottom: 0;
+}

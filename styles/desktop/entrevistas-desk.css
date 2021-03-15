@@ -1,0 +1,14 @@
+#entrevistas h2{
+    letter-spacing: 0;
+}
+
+#entrevistas img{
+    max-height: 364px; 
+ }
+
+ 
+#entrevistas div{
+    margin-top: 36px;
+    width: inherit;   
+}
+
